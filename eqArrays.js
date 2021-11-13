@@ -15,4 +15,5 @@ const eqArrays = (arr1, arr2) => {
 // assertEqual(eqArrays([7, 8, 9], [1, 3, 4]), true);
 // assertEqual(eqArrays(['Lighthouse', 'Labs'], [1, 3, 4]), true);
 
+
 module.exports = eqArrays
