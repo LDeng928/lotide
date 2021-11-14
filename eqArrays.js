@@ -5,7 +5,9 @@ const eqArrays = (arr1, arr2) => {
   if (arr1.length !== arr2.length) {
     return false;
   } else {
-    return arr1.every((val) => arr2.includes(val));
+    if (arr1.every((val) => arr2.includes(val))) {
+      return true;
+    }
   }
 };
 
